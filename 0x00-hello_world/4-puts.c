@@ -1,3 +1,8 @@
+/*
+ * File: 4-puts.c
+ * Auth: Linet Gitonga
+ */
+
 #include <stdio.h>
 /*
  * File: 4-puts.c

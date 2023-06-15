@@ -1,7 +1,9 @@
 /*
  * File: 5-printf.c
- * /
- 
+ * Auth: Linet Gitonga 
+ *
+ */
+
 #include <stdio.h>
 
 /**
@@ -10,7 +12,9 @@
  *
  * Return: Always 0.
  */
-int main (void){
-printf("with proper grammar, but the outcome is a piece of art,\n")
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+
 	return (0);
 }
