@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * insert_nodeint_at_index - Function to Insert a new node at a  positiion given.
+ * insert_nodeint_at_index - Function Insert new node at a  position given.
  * @head: Supposed to be the first node address.
  * @idx: The Position of the new node to be inserted in.
  * @n: Data of the new node.
