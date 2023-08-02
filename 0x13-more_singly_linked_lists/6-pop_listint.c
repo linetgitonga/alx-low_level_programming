@@ -2,9 +2,9 @@
  * Task: 6-pop_listint.c
  * Author: linetgitonga
  */
-
 #include "lists.h"
-
+#include <stdlib.h>
+#include <stddef.h>
 /**
  * pop_listint - Deletes the head node of a listint_t list.
  * @head: pointer to the address of the head of the listint_t list.

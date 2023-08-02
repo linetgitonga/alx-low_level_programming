@@ -1,11 +1,10 @@
-/
+/*
  * Task 3: 3-add_nodeint_end.c
  * Author: gitongalinet
- *
- */
-
+ */ 
 #include "lists.h"
-
+#include <stddef.h>
+#include <stdlib.h>
 /**
  * add_nodeint_end - Adds a new node at the
  *                   end of a 
@@ -15,7 +14,6 @@
  *
  * Return: If the function fails - NULL. Else the address of the new element.
  */
-
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *nodenew, *lasttemp;
