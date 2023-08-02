@@ -1,14 +1,13 @@
 /*
  * Task 2: 2-add_nodeint.c
- * Author: linetgitonga 
- *
+ * Author: linetgitonga
  */
 
 #include "lists.h"
 
 /**
  * add_nodeint - Adds  new node at the
- * 		 beginning  of a listint_t list.
+ * beginning  of a listint_t list.
  * @head: A pointer to the address of the  head of the listint_t list.
  * @n: Integer for the new node to contain.
  * Return: NULL- If the function fails.

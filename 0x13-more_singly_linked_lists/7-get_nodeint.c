@@ -4,7 +4,7 @@
 
 /**
  * get_nodeint_at_index - returns the node
- * 				 at a certain index in a linked list
+ * at a certain index in a linked list
  * @head: the first node in the linked list
  * @index: the index of the node supposed to return
  *
