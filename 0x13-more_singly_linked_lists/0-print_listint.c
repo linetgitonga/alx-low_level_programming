@@ -1,8 +1,5 @@
-/*
- * Task0: 0-print_listint.c
- * Linet
- */
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_listint - Should Prints the elements of  listint_t list.

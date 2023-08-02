@@ -1,4 +1,4 @@
-/*
+/
  * Task 3: 3-add_nodeint_end.c
  * Author: gitongalinet
  *
@@ -13,7 +13,7 @@
  * @head: address pointer of the  head of the listint_t list.
  * @n: Datatype integer for the new node to contain.
  *
- * Return: If the function fails - NULL. Otherwise - the address of the new element.
+ * Return: If the function fails - NULL. Else the address of the new element.
  */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -35,7 +35,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		lasttemp = *head;
 		while (lasttemp->next != NULL)
 			lasttemp = lasttemp->next;
-		lasttemp->next = newnode;
+		lasttemp->next = nodenew;
 	}
 
 	return (*head);
