@@ -11,10 +11,8 @@
  */
 int get_endianness(void)
 {
-	int l = 1;
-	int a = 1;
-	char *b = (char *)&a;
+	unsigned int f = 1;
+	char *a = (char *) &f;
 
-	flag = *b + 48;
-	return (l);
+	return (*a);
 }
